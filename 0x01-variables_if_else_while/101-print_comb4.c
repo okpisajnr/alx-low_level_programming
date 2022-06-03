@@ -15,7 +15,7 @@ int main(void)
 		{
 			for (o = p +1; o <= '9'; o++)
 			{
-				if (p != && p != o)
+				if (p != d && p != o)
 			        {
 					putchar(d);
 				    	putchar(p);
