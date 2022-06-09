@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 #include "main.h"
 
 /**
@@ -11,6 +9,7 @@
  * @year: year
  * Return: void
  */
+
 void print_remaining_days(int month, int day, int  year)
 {
 	if ((year % 4 == 0 || year % 400 == 0) || (year % 400 == 0 && year % 100 == 0))
