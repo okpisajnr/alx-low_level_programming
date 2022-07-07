@@ -2,12 +2,12 @@
 #include <stdarg.h>
 
 /**
- *  * sum_them_all -  sum all arguments
- *   * @n: int, number of undefined arguments
- *    *
- *     * Return: sum of args
- *      * On error, 0 is returned
- *       */
+ * sum_them_all -  sum all arguments
+ * @n: int, number of undefined arguments
+ *
+ * Return: sum of args
+ * On error, 0 is returned
+ */
 
 int sum_them_all(const unsigned int n, ...)
 {
